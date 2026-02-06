@@ -242,7 +242,6 @@ a {
   justify-content: center;
 }
 
-
 .feature-dark {
   width: 50vw;
   background: url(./assets/feature-section-bg-img-2.png);
@@ -297,7 +296,6 @@ a {
   height: auto;
   border-radius: 10px;
 }
-
 
 /* Testimonials section */
 
@@ -360,7 +358,7 @@ a {
   border-radius: 50%;
 }
 
-.author-image-all{
+.author-image-all {
   width: 44px;
   height: 44px;
   border-radius: 4px;
@@ -394,7 +392,6 @@ a {
   font-size: 14px;
   opacity: 0.6;
 }
-
 
 /* Frontier section */
 
@@ -437,6 +434,91 @@ a {
   line-height: 1.5;
 }
 
+.list {
+  background-image: url(./assets/frontier-section-bg-img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 66%;
+  margin-top: 25px;
+  border-radius: 6px;
+}
+
+/*  */
+
+.list-image {
+  width: 200px;
+  height: 100px;
+}
+
+.model-item {
+  background-color: #0f0e0a;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tag {
+  background-color: #2a2520;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 11px;
+  color: #999;
+}
+
+.checkmark {
+  color: #4ade80;
+  font-size: 16px;
+}
+
+/*  */
+
+
+.search-demo {
+  background-image: url(./assets/frontier-section-bg-img-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35vh;
+  margin-top: 25px;
+  border-radius: 6px;
+  border-bottom: 20px;
+}
+
+.search-query {
+  font-size: 14px;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #2a2520;
+}
+
+.search-result {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 8px;
+  padding: 6px 0;
+}
+
+.enterprise-image {
+  background-image: url(./assets/frontier-section-bg-img-3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 35vh;
+  margin-top: 25px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.enterprise-image img {
+  width: 100%;
+  border-radius: 6px;
+}
+
 /* Changelog section */
 
 .changelog {
@@ -461,15 +543,15 @@ a {
 }
 
 .version {
-      background-color: #2a2520;
-    color: #666560;
-    padding: 3px 12px;
-    border-radius: 18px;
-    font-size: 12px;
-    font-weight: 100;
-    display: inline-block;
-    margin-bottom: 12px;
-    border: 1px solid #666560;
+  background-color: #2a2520;
+  color: #666560;
+  padding: 3px 12px;
+  border-radius: 18px;
+  font-size: 12px;
+  font-weight: 100;
+  display: inline-block;
+  margin-bottom: 12px;
+  border: 1px solid #666560;
 }
 
 .date-first {
@@ -704,5 +786,3 @@ a {
   justify-content: center;
   gap: 6px;
 }
-
-
