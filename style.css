@@ -394,3 +394,111 @@ a {
   font-size: 14px;
   opacity: 0.6;
 }
+
+
+/* Frontier section */
+
+.frontier {
+  max-width: 1400px;
+  margin: 120px auto;
+  padding: 0 40px;
+}
+
+.section-frontier {
+  font-size: 28px;
+  font-weight: 400;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.frontier-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.frontier-card {
+  background-color: #1b1912;
+  padding: 20px 20px 0px;
+  border-radius: 10px;
+  border: 1px solid #2a2520;
+}
+
+.frontier-card h3 {
+  font-size: 16px;
+  font-weight: 200;
+  margin-bottom: 4px;
+}
+
+.frontier-card p {
+  font-size: 15px;
+  color: #999894;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+/* Changelog section */
+
+.changelog {
+  max-width: 1400px;
+  margin: 120px auto;
+  padding: 0 40px;
+  position: relative;
+}
+
+.changelog-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.changelog-item {
+  background-color: #1b1912;
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid #211e18;
+}
+
+.version {
+      background-color: #2a2520;
+    color: #666560;
+    padding: 3px 12px;
+    border-radius: 18px;
+    font-size: 12px;
+    font-weight: 100;
+    display: inline-block;
+    margin-bottom: 12px;
+    border: 1px solid #666560;
+}
+
+.date-first {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 7px;
+  position: absolute;
+  left: 1106px;
+  top: 90px;
+}
+
+.date {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.date-end {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 7px;
+  position: absolute;
+  left: 106px;
+  top: 90px;
+}
+
+.changelog-content h3 {
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 1.3;
+}
+
