@@ -142,3 +142,41 @@ a {
   left: 64%;
 }
 
+/* Trusted brand section */
+
+.trusted-brand {
+  max-width: 1400px;
+  margin: 80px auto;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.trusted-text {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.brand-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.logo-item {
+  background-color: #1b1912;
+  padding: 24px 12px;
+  border-radius: 5px;
+  border: 1px solid #201e17;
+  letter-spacing: 1px;
+  flex: 1;
+  min-width: 120px;
+}
+
+.logo-img {
+  width: 8vw;
+  height: 5vh;
+}
+
