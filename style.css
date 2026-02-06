@@ -180,3 +180,125 @@ a {
   height: 5vh;
 }
 
+/* Feature section */
+
+.feature-section {
+  max-width: 1355px;
+  margin: 120px auto;
+  padding: 24px;
+  background-color: #1b1912;
+  border-radius: 6px;
+}
+
+.feature-section.dark {
+  background-color: #1b1912;
+}
+
+.feature-container {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+}
+
+.feature-container .reverse {
+  flex-direction: row-reverse;
+}
+
+.feature-text {
+  flex: 1;
+}
+
+.feature-text h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.feature-text p {
+  font-size: 19px;
+  color: #aaa;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.feature-link {
+  color: #ff6b35;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.feature-image {
+  width: 50vw;
+  background: url(./assets/feature-section-bg-img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  padding: 30px;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.feature-dark {
+  width: 50vw;
+  background: url(./assets/feature-section-bg-img-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  padding: 30px;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feature-beach {
+  width: 50vw;
+  background: url(./assets/feature-section-bg-img-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  padding: 30px;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.feature-img1 {
+  position: absolute;
+  width: 32vw;
+  top: 6%;
+  left: 6%;
+  border-radius: 5px;
+}
+
+.feature-img2 {
+  position: absolute;
+  width: 32vw;
+  top: 36%;
+  left: 17%;
+}
+
+.feature-img {
+  width: 40vw;
+  border-radius: 5px;
+}
+
+.feature-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+
+
+
