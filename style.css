@@ -576,3 +576,27 @@ a {
   color: #666;
 }
 
+/* CTA section */
+
+.cta {
+  max-width: 1400px;
+  margin: 130px auto;
+  padding: 36px 40px;
+  text-align: center;
+}
+
+.cta-title {
+  font-size: 74px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.cta-download-button {
+  background-color: #ffffff;
+  color: #000;
+  padding: 12px 22px;
+  border-radius: 32px;
+  font-size: 17px;
+}
+
+
