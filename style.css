@@ -599,4 +599,110 @@ a {
   font-size: 17px;
 }
 
+/* Footer section */
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 70px 200px 35px;
+  background: #1b1912;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 35px;
+  margin-bottom: 50px;
+}
+
+.footer-col h4 {
+  font-size: 15px;
+  font-weight: 200;
+  margin-bottom: 16px;
+  color: #999894;
+}
+
+.footer-col a {
+  display: block;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+}
+
+.footer-left {
+  display: flex;
+  gap: 16px;
+  font-size: 13px;
+  color: #999894;
+}
+
+.footer-copy {
+  font-size: 12px;
+}
+
+.footer-soc {
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  filter: grayscale(100%);
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.theme-icons {
+  display: flex;
+  gap: 8px;
+  background-color: #2a2520;
+  padding: 4px;
+  border-radius: 50px;
+}
+
+.theme-icon {
+  background: transparent;
+  border: none;
+  color: #888;
+  padding: 6px 8px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theme-icon:nth-child(3) {
+  background-color: #3a3530;
+  color: #fff;
+}
+
+.language-selector {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background-color: #2a2520;
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-size: 13px;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
 
